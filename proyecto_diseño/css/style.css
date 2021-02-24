@@ -1,0 +1,336 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+section { padding: 100px 0 40px 0; }
+
+h1 { font-size: 48px;  }
+h2 { font-size: 48px; margin-bottom: 30px; }
+h3 { font-size: 30px;}
+h4 { font-size: 25px; margin-left: 4px; opacity: .5; text-align: center;} 
+h5 {margin-bottom: 0;}
+h6 {font-size: 15px;}
+
+p {
+    font-size: 18px;
+    color: var(--dark-color);
+    opacity: .5;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a:hover{text-decoration: none;}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.navbar-toggler{font-size: 35px;}
+.navbar-toggler:focus{outline: none;}
+
+.nav-link{color: black;}
+
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.logo-brand-footer{
+    min-width: 200px;
+    max-width: 230px;
+}
+
+.icono{
+    max-width: 30px;
+    min-width: 20px;
+}
+
+#imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgba(.2, .2, .2, .2);
+    
+}
+
+.bg-light-gradient{
+    background: linear-gradient(45deg,#9CE1DA,#4EBBA8);
+}
+
+
+#logo-espacio{
+    padding: 0 0 80px 0;
+}
+
+.carousel-item-inicio {
+
+    min-height: 760px;
+    background-size: cover;
+}
+.carousel-item-pena {
+    background-size: cover;
+    width: 100%; 
+    height: 400px;
+}
+
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.content-center-2 {
+    max-width: 800px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content-center-servicios {
+    
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+
+}
+.content-center-servicios p#sobre_nosotros{
+    padding-top: 15px;
+    font-size: 22px;
+}
+.content-center p#contacto{
+    font-size: 14px;
+    padding-bottom: 10px;
+    opacity: 1;
+    color: rgb(58, 58, 58);
+}
+
+.content-center-2 p#sobre_nosotros{
+    padding-top: 15px;
+    font-size: 23px;
+}
+
+
+#flecha{
+    font-size: 50px;
+}
+
+.bg-light-grey {background-color: #f5f5f5;}
+.bg-dark{background-color: #1a1a1a !important;}
+
+.aumentar-img{
+    position: relative;
+    margin: 10px 0;
+    
+}
+
+.aumentar-img img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.aumentar-img:hover img{
+    -moz-transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
+
+.aumentar-img:hover img.opaco{
+    opacity: 0.65;
+}
+
+img:hover img.elementoencima{
+    visibility: visible;
+}
+
+.desc-profesionales{
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 20px;
+}
+
+.desc-profesionales span{
+    font-size: 14px;
+}
+
+.desc-profesionales ion-icon{
+    padding: 10px 1px 0px 1px;
+}
+
+.desc-profesionales a ion-icon{
+    font-size: 19px;
+    color: white;
+}
+
+.full-width{
+    width: 100%;
+}
+
+iframe {
+    padding-bottom: 50px;
+    min-height: 100%;
+}
+
+#footer{
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 20px 30px;
+}
+
+hr#separar{
+    background-color: rgb(158, 158, 158);
+    opacity: .5;
+    float: inline-end;
+    width: 150px;
+}
+
+hr{
+    background-color: rgb(83, 83, 83);
+}
+
+.lista-opaca{
+    padding-bottom: 20px;
+    opacity: .5;
+    font-size: 14px;
+}
+
+.lista-opaca-2{
+    padding-bottom: 11px; 
+    opacity: .5;
+    font-size: 14px;
+}
+
+#social{
+    color: rgb(158, 158, 158);
+    font-size: 25px;
+}
+
+#social:hover{
+    color: #4EBBA8;
+}
+
+#footer a:hover{
+    color: #4EBBA8;
+}
+
+.nav-link:hover{
+    color: #4EBBA8;
+}
+
+#footer-menu{
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+}
+
+.espacio-contacto{
+    text-align: center;
+}
+
+.container-fluid-2 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+@media (max-width: 575.98px) { 
+    section { padding: 35px 0 35px 0; }
+    .navbar{
+        min-height: 50px;
+    }
+    .logo-brand{
+        min-width: 100px;
+        max-width: 120px;
+    }
+    .carousel-item {
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        background-size: cover;
+    }
+    #small{
+        font-size: 15px;
+        padding: 20px 20px 0 20px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: normal;
+    }
+    h2{
+        font-size: 30px;
+        line-height: normal;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 5vw;
+    }
+    .content-center-2 p#sobre_nosotros{
+        font-size: 19px;
+    }
+    hr#separar{
+        background-color: rgb(158, 158, 158);
+        opacity: .5;
+        float: inline-end;
+        width: 75%;
+    }
+    p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .content-center-2 {
+        max-width: 800px;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .content-center-servicios {
+    
+        text-align: center;
+        margin-left: 25%;
+        width: 100%;
+        padding: 10px;
+    
+    }
+    .container-fluid {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    video{
+        width: 80%;
+        height: 100%;
+    }
+    .aumentar-img{
+        padding-right: 10px ;
+        padding-left: 10px ;
+    }
+    #social{
+        font-size: 17px;
+    }
+    #footer-menu{
+        font-size: 4vw;
+    }
+    #footer .list-inline .list-inline-item{
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }

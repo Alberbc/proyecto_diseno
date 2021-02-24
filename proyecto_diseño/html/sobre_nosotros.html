@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pawscare</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="icon" type="image/png" href="../imagenes/icono_pagina.png" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../imagenes/Logo_header.png" alt="Logo Paw's care"
+                    class="logo-brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" id="inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="sobre_nosotros">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html" id="servicio">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <header>
+            <div class="container" style="padding-top: 40px;">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="container-fluid">
+                            <div class="content-center-2">
+                                <h1><b>¿De qué disponemos?</b></h1>
+                                <p id="sobre_nosotros">Contamos con 2 quirófanos siempre con el material más actual, una sala de rayos X, 2
+                                    consultas y una amplia recepción con productos para sus mascotas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide One - Set the background image for this slide in the line below -->
+                                <div class="carousel-item carousel-item-pena active"
+                                    style="background-image: url('../imagenes/Sobre_nosotros/Slider1_1.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2 class="display">Texto de ejemplo</h2>
+                                        <p class="lead">This is a description for the first slide.</p>
+                                    </div>
+                                </div>
+                                <!-- Slide Two - Set the background image for this slide in the line below -->
+                                <div class="carousel-item carousel-item-pena"
+                                    style="background-image: url('../imagenes/Sobre_nosotros/Slider2_1.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2 class="display">Texto de ejemplo</h2>
+                                        <p class="lead">This is a description for the second slide.</p>
+                                    </div>
+                                </div>
+                                <!-- Slide Three - Set the background image for this slide in the line below -->
+                                <div class="carousel-item carousel-item-pena"
+                                    style="background-image: url('../imagenes/Sobre_nosotros/Slider3_1.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2 class="display">Texto de ejemplo</h2>
+                                        <p class="lead">This is a description for the third slide.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <ion-icon id="flecha" name="caret-back-outline" aria-hidden="true"></ion-icon>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <ion-icon id="flecha" name="caret-forward-outline" aria-hidden="true"></ion-icon>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="bg-light-gradient">
+        <div class="container">
+            <div class="content-center">
+                <h2> <b>Nuestros profesionales</b></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional1.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Guillermo García</h5>
+                            <span>Dueño</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional2.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Benito Martínez</h5>
+                            <span>Peluquero canino</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional3.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Juan Alberto García</h5>
+                            <span>Recepcionista</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional4.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Julia Roberts</h5>
+                            <span>Enfermera/cirujana</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional5.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Ángela Jolie</h5>
+                            <span>Experta exóticos</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aumentar-img">
+                        <img src="../imagenes/Sobre_nosotros/profesional6.jpg" class="img-fuild" alt="Willyrex" id="imagen">
+                        <div class="desc-profesionales">
+                            <h5>Elon Musk</h5>
+                            <span>Cirujano</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li class="list-inline-item"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <div>
+                <img src="../imagenes/Logo_footer.png" alt="logo" class="logo-brand-footer" id="logo-espacio">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h4>Dirección</h4>
+                    <hr id="separar" class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                    <ul class="list-unstyled">
+                        <li class="lista-opaca">Calle Columbus</li>
+                        <li class="lista-opaca">Local número 4</li>
+                        <li class="lista-opaca">El Puerto de Santa María</li>
+                        <li class="lista-opaca">(Cádiz) - 11500 España</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4>Contacto</h4>
+                    <hr id="separar" class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                    <ul class="list-unstyled">
+                        <li class="lista-opaca-2"><u>Pedir cita</u></li>
+                        <li class="lista-opaca-2">856 22 33 44</li>
+                        <br>
+                        <li class="lista-opaca-2"><u>Urgencias 24 horas</u></li>
+                        <li class="lista-opaca-2">657 77 88 99</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4>Contacto</h4>
+                    <hr id="separar" class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                    <ul class="list-unstyled">
+                        <li class="lista-opaca-2"><u>Lunes a viernes</u></li>
+                        <li class="lista-opaca-2">10:00h a 20:00h</li>
+                        <br>
+                        <li class="lista-opaca-2"><u>Sábados y festivos</u></li>
+                        <li class="lista-opaca-2">10:00h a 14:00h</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="../index.html" id="footer-menu"><b>Inicio</b></a></li>
+                <li class="list-inline-item"><a href="#" id="footer-menu"><b>Sobre nosotros</b></a></li>
+                <li class="list-inline-item"><a href="servicios.html" id="footer-menu"><b>Servicios</b></a></li>
+                <li class="list-inline-item"><a href="" id="footer-menu"><b>Productos</b></a></li>
+                <li class="list-inline-item"><a href="contacto.html" id="footer-menu"><b>Contacto</b></a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank">
+                        <ion-icon name="logo-facebook" id="social"></ion-icon>
+                    </a></li>
+                <li class="list-inline-item"><a href="https://twitter.com" target="_blank">
+                        <ion-icon name="logo-twitter" id="social"></ion-icon>
+                    </a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank">
+                        <ion-icon name="logo-instagram" id="social"></ion-icon>
+                    </a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank">
+                        <ion-icon name="logo-youtube" id="social"></ion-icon>
+                    </a></li>
+            </ul>
+            <small style="opacity: .5;">©2020 All Rights Reserved. Created by <a href="https://themesbootstrap.com.mx/"
+                    class="font-weight-bold" target="_blank" rel="noopener">Themes Bootstrap</a></small>
+
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>
